@@ -8,7 +8,7 @@ Eshaan Nair (enair)
 A web application that allows users to plan trips by selecting a destination and date, view the weather forecast, and save the trip details.
 
 ## YouTube Video Link:
-
+https://youtu.be/FmbHsFIm0Is
 
 ## APIs:
 - Weatherstack API (https://weatherstack.com/)
