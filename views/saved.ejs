@@ -1,0 +1,6 @@
+<h2>Saved Trips</h2>
+<ul>
+  <% trips.forEach(trip => { %>
+    <li><strong><%= trip.destination %></strong> on <%= trip.date %> — <%= trip.description %>, <%= trip.temperature %>°C</li>
+  <% }) %>
+</ul>

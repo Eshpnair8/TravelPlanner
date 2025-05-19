@@ -1,0 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  font-size: 18px;
+  padding: 20px;
+}
+h1, h2 {
+  color: #2c3e50;
+}
+form {
+  margin-top: 20px;
+}
+input, button {
+  padding: 10px;
+  margin: 5px;
+}

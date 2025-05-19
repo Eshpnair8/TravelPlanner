@@ -1,0 +1,11 @@
+<h2>Trip to <%= trip.destination %> on <%= trip.date %></h2>
+<p>Weather: <%= weather.current.weather_descriptions[0] %></p>
+<p>Temperature: <%= weather.current.temperature %>°C</p>
+
+<form action="/save" method="POST">
+  <input type="hidden" name="destination" value="<%= trip.destination %>">
+  <input type="hidden" name="date" value="<%= trip.date %>">
+  <input type="hidden" name="description" value="<%= weather.current.weather_descriptions[0] %>">
+  <input type="hidden" name="temperature" value="<%= weather.current.temperature %>">
+  <button type="submit">Save Trip</button>
+</form>
